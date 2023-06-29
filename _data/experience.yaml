@@ -6,8 +6,14 @@ experiences:
   subtitle: "Cyberspace Security, NLP"
   category: "school"
 
+- place: "Microsoft"
+  time: "May 2023 - now"
+  title: "Research Intern"
+  subtitle: "Large Language Model"
+  category: "work"
+
 - place: "Baidu Inc."
-  time: "Nov 2022 - now"
+  time: "Nov 2022 - May 2023"
   title: "Research Intern"
   subtitle: "XiaoDu Cloud, NLP"
   category: "work"
