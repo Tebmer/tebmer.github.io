@@ -7,6 +7,11 @@ papers:
     code: "https://github.com/Tebmer/SNRI"
     selected: y
 
+  - title: "Cross-modal Contrastive Learning for Multimodal Fake News Detection"
+    authors: "Longzheng Wang, Chuang Zhang, Hongbo Xu, Yongxiu Xu, <b>Xiaohan Xu</b>, Siqi Wang"
+    venue: "ACMMM 2023"
+    selected: y
+
   - title: "PoKE: Prior Knowledge Enhanced Emotional Support Conversation with Latent Variable"
     authors: "<b>Xiaohan Xu</b>, Xuying Meng, Yequan Wang"
     venue: "Preprint 2023"
