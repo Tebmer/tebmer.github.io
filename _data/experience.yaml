@@ -1,7 +1,14 @@
 experiences:
 
-- place: "Information Institute of Engineering "
-  time: "Sep 2021 - now"
+
+- place: "The University of Hong Kong"
+  time: "Sep 2024 - now"
+  title: "Ph.D."
+  subtitle: "Computer Science, NLP"
+  category: "school"
+
+- place: "UCAS, IIE"
+  time: "Sep 2021 - Jun 2024"
   title: "M.S."
   subtitle: "Cyberspace Security, NLP"
   category: "school"

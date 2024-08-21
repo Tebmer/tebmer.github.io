@@ -6,16 +6,15 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-    I am currently a second-year student at <b>Institute of Information Engineering, Chinese Academy of Sciences</b>, advised by Prof. <a href="https://people.ucas.ac.cn/~xuhongbo">Hongbo Xu</a>. 
-    Previously, I earned my B.S. in <b>Automation from Beijing Institute of Technology</b>, supervised by Prof.<a href="https://ac.bit.edu.cn/szdw/jsml/znxxclykzyjs1/66876bd58d104d8b9d1e80fb9ff6423f.htm">Yuan Li</a>. 
+    I am currently a first-year student at <b> The University of Hong Kong </b> pursuing a Ph.D. in Computer Science, advised by Prof. <a href="https://www.reynold.hku.hk">Reynold Cheng</a>. 
+    Before that, I received my M.S. from <b>Institute of Information Engineering, Chinese Academy of Sciences</b>, advised by Prof. <a href="https://people.ucas.ac.cn/~xuhongbo">Hongbo Xu</a>. 
+    I earned my B.S. in <b>Automation from Beijing Institute of Technology</b>, supervised by Prof.<a href="https://ac.bit.edu.cn/szdw/jsml/znxxclykzyjs1/66876bd58d104d8b9d1e80fb9ff6423f.htm">Yuan Li</a>. 
     During my undergraduate study, I had an opportunity to participate in a summer research program on data mining at the  <b>Illinois Institute of Technology</b>, mentored by <a href="https://www.linkedin.com/in/aleksey-zelenberg">Dr. Zelenberg</a>. 
     Additionally, I gained valuable industry and research institute experience through internships at <b>Microsoft, Baidu Inc., and Beijing Academy of Artificial Intelligence (BAAI)</b>, etc.
   </p>
   
   <p>
-    My research interests focus on <b>Language Model and Knowledge Graph (KG)</b>, including but not limited to instruct-tuning language model, dialogue system and KG link prediction. 
-    I am excited about the integration of language model and knowledge graph, as I believe this has the potential to bring more factual knowledge and interpretability for language model. 
-    Ultimately, I am committed to building more artificial applications that can provide greater convenience to people.
+    My research interests focus on <b>Large Language Model with structured data, e.g. Database, Knowledge Graph (KG), etc.</b>.
   </p>
 </div>
 
@@ -41,6 +40,11 @@ title: Home
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
+            
+            {% if paper.paper_link %}
+              <a class="button" href="{{ paper.paper_link }}" target="_blank">Paper</a>
+            {% endif %}
+
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
@@ -77,6 +81,11 @@ title: Home
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
+
+            {% if paper.paper_link %}
+              <a class="button" href="{{ paper.paper_link }}" target="_blank">Paper</a>
+            {% endif %}
+            
             {% if paper.paper_pdf %}
               <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
             {% endif %}
@@ -212,6 +221,9 @@ title: Home
 <div class="docs-section" id="Awards">
   <h4>Awards</h4>
   <ul>
+    <li>
+      <b>Postgraduate Scholarship (PGS) </b>, HKU, 2024
+    </li>
     <li>
       <b>National Scholarship (<2%)</b>, Beijing Institute of Technology, 2018
     </li>

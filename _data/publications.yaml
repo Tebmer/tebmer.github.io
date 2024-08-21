@@ -1,5 +1,30 @@
 papers:
 
+  - title: "A survey on knowledge distillation of large language models"
+    authors: "<b>Xiaohan Xu</b>, Ming Li, Chongyang Tao, Tao Shen, Reynold Cheng, Jinyang Li, Can Xu, Dacheng Tao, Tianyi Zhou"
+    venue: "Arxiv 2024"
+    paper_link: "https://arxiv.org/abs/2402.13116"
+    code: "https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs"
+    selected: y
+
+  - title: "Leveraging large language models for nlg evaluation: A survey"
+    authors: "Zhen Li<sup>‡</sup>, <b>Xiaohan Xu<sup>‡</sup></b>, Tao Shen, Can Xu, Jia-Chen Gu, Chongyang Tao"
+    venue: "Arxiv 2024"
+    paper_link: "https://arxiv.org/pdf/2401.07103"
+    code: "https://github.com/chongyangtao/LLMs-for-NLG-Evaluation"
+
+  - title: "Re-reading improves reasoning in language models"
+    authors: "<b>Xiaohan Xu</b>, Chongyang Tao, Tao Shen, Can Xu, Hongbo Xu, Guodong Long, Jian-guang Lou"
+    venue: "Arxiv 2023"
+    paper_link: "https://arxiv.org/pdf/2309.06275"
+    code: "https://github.com/Tebmer/Rereading-LLM-Reasoning/"
+    selected: y
+
+  - title: "MMIDR: Teaching Large Language Model to Interpret Multimodal Misinformation via Knowledge Distillation"
+    authors: "Longzheng Wang<sup>‡</sup>, <b>Xiaohan Xu<sup>‡</sup></b>, Lei Zhang, Jiarui Lu, Yongxiu Xu, Hongbo Xu, Chuang Zhang"
+    venue: "Arxiv 2024"
+    paper_link: "https://arxiv.org/pdf/2403.14171"
+
   - title: "Subgraph Neighboring Relations Infomax for Inductive Link Prediction on Knowledge Graphs"
     authors: "<b>Xiaohan Xu</b>, Peng Zhang, Yongquan He, Chengpeng Chao, Chaoyang Yan"
     venue: "IJCAI'22 Long Presentation"
@@ -10,11 +35,9 @@ papers:
   - title: "Cross-modal Contrastive Learning for Multimodal Fake News Detection"
     authors: "Longzheng Wang, Chuang Zhang, Hongbo Xu, Yongxiu Xu, <b>Xiaohan Xu</b>, Siqi Wang"
     venue: "ACMMM 2023"
-    selected: y
 
   - title: "PoKE: Prior Knowledge Enhanced Emotional Support Conversation with Latent Variable"
     authors: "<b>Xiaohan Xu</b>, Xuying Meng, Yequan Wang"
     venue: "Preprint 2023"
     paper_pdf: "/assets/publications/2023_poke/paper.pdf"
-    selected: y
 
