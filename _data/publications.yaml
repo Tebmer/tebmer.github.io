@@ -1,4 +1,10 @@
 papers:
+  - title: "SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications"
+    authors: "Jinyang Li, Xiaolong Li, Ge Qu, Per Jacobsson, Bowen Qin, Binyuan Hui, Shuzheng Si, Nan Huo, <b>Xiaohan Xu</b>, Yue Zhang, Ziwei Tang, Yuanshuai Li, Florensia Widjaja, Xintong Zhu, Feige Zhou, Yongfeng Huang, Yannis Papakonstantinou, Fatma Ozcan, Chenhao Ma, Reynold Cheng"
+    venue: "Arxiv 2025"
+    paper_link: "https://www.arxiv.org/abs/2506.18951"
+    code: "https://bird-critic.github.io"
+    selected: y
 
   - title: "A survey on knowledge distillation of large language models"
     authors: "<b>Xiaohan Xu</b>, Ming Li, Chongyang Tao, Tao Shen, Reynold Cheng, Jinyang Li, Can Xu, Dacheng Tao, Tianyi Zhou"
