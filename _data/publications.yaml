@@ -1,7 +1,16 @@
 papers:
+
+  - title: "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions"
+    authors: "Nan Huo<sup>‡</sup>, <b>Xiaohan Xu<sup>‡</sup></b>, Jinyang Li<sup>‡</sup>, Per Jacobsson, Shipei Lin, Bowen Qin, Binyuan Hui, Xiaolong Li, Ge Qu, Shuzheng Si, Linheng Han, Edward Alexander, Xintong Zhu, Rui Qin, Ruihan Yu, Yiyao Jin, Feige Zhou, Weihao Zhong, Yun Chen, Hongyu Liu, Chenhao Ma, Fatma Ozcan, Yannis Papakonstantinou, Reynold Cheng"
+    venue: "Arxiv 2025"
+    paper_link: "https://arxiv.org/abs/2510.05318"
+    code: "https://bird-interact.github.io"
+    selected: y
+
+
   - title: "SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues in Real-World Applications"
     authors: "Jinyang Li, Xiaolong Li, Ge Qu, Per Jacobsson, Bowen Qin, Binyuan Hui, Shuzheng Si, Nan Huo, <b>Xiaohan Xu</b>, Yue Zhang, Ziwei Tang, Yuanshuai Li, Florensia Widjaja, Xintong Zhu, Feige Zhou, Yongfeng Huang, Yannis Papakonstantinou, Fatma Ozcan, Chenhao Ma, Reynold Cheng"
-    venue: "Arxiv 2025"
+    venue: "NeurIPS 2025"
     paper_link: "https://www.arxiv.org/abs/2506.18951"
     code: "https://bird-critic.github.io"
     selected: y
