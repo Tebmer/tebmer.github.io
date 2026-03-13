@@ -1,5 +1,12 @@
 papers:
 
+  - title: "LiveSQLBench: A Dynamic and Contamination-Free Benchmark for Evaluating LLMs on Real-World Text-to-SQL Tasks"
+    authors: "<b>Xiaohan Xu</b>, Jinyang Li, et al."
+    venue: "Work in Progress, 1k+/month on Hugging Face"
+    homepage: "https://livesqlbench.ai"
+    code: "https://github.com/bird-bench/livesqlbench"
+    selected: y
+
   - title: "BIRD-INTERACT: Re-imagining Text-to-SQL Evaluation via Lens of Dynamic Interactions"
     authors: "Nan Huo<sup>‡</sup>, <b>Xiaohan Xu<sup>‡</sup></b>, Jinyang Li<sup>‡</sup>, Per Jacobsson, Shipei Lin, Bowen Qin, Binyuan Hui, Xiaolong Li, Ge Qu, Shuzheng Si, Linheng Han, Edward Alexander, Xintong Zhu, Rui Qin, Ruihan Yu, Yiyao Jin, Feige Zhou, Weihao Zhong, Yun Chen, Hongyu Liu, Chenhao Ma, Fatma Ozcan, Yannis Papakonstantinou, Reynold Cheng"
     venue: "ICLR 2026 <span class=\"paper-oral\">Oral (1.2%)</span>"
@@ -56,4 +63,3 @@ papers:
     authors: "<b>Xiaohan Xu</b>, Xuying Meng, Yequan Wang"
     venue: "Preprint 2023"
     paper_pdf: "/assets/publications/2023_poke/paper.pdf"
-
